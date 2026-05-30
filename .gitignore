@@ -1,0 +1,29 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.env
+
+# --- OS ---
+.DS_Store
+
+# --- 대용량 원본 데이터 (대시보드 미사용, 저장소에서 제외) ---
+data/raw/braze/
+*.xlsx
+
+# --- 구버전/연습 파일 (정리 대상, 루트 경로만) ---
+/raw_data/
+/processed/
+/dashboard.py
+/dashboard_roas.py
+/pandas_practice.py
+/scripts/join_roas.py
+
+# --- 산출물 (재생성 가능) ---
+data/output/
+data/unmatched/
+
+# --- 로컬 설정 ---
+.claude/settings.local.json
